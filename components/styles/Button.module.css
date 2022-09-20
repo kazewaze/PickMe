@@ -10,5 +10,12 @@
 }
 
 .Button:hover {
+  outline: none;
+  box-shadow: none;
   background-color: #85784d;
+}
+
+.Button:active {
+  outline: none;
+  box-shadow: none;
 }
