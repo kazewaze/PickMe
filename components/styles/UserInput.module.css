@@ -1,0 +1,13 @@
+.userInput {
+  max-width: 75vw;
+  height: 400px;
+  width: 600px;
+  margin: 35px;
+  padding: 7px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border: 1px solid #18323b;
+  border-radius: 7px;
+  color: #e1b35d;
+  background-color: #18323b;
+}

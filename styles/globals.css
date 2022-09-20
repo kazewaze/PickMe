@@ -2,13 +2,20 @@ html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: 'Readex Pro', 'Inter', 'Fira Sans', Helvetica Neue, sans-serif;
+  line-height: 1.5;
+  letter-spacing: 0.0625em;
+  color: #efeeea;
+  background-color: #001d28;
 }
 
 a {
   color: inherit;
   text-decoration: none;
+}
+
+textarea {
+  box-shadow: none;
 }
 
 * {

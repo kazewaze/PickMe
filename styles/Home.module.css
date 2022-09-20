@@ -16,91 +16,52 @@
   display: flex;
   flex: 1;
   padding: 2rem 0;
-  border-top: 1px solid #eaeaea;
+  border-top: 1px solid #18323b;
   justify-content: center;
   align-items: center;
 }
 
 .footer a {
+  max-width: 300px;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-grow: 1;
+  margin: 7px;
 }
 
-.title a {
-  color: #0070f3;
-  text-decoration: none;
+.footer__link_wrapper {
+  padding: 7px 3.5px;
+  border-radius: 7px;
+  background-color: #18323b;
 }
 
-.title a:hover,
-.title a:focus,
-.title a:active {
-  text-decoration: underline;
+.myHandle {
+  margin: 1.75px 0 0 7px;
+  font-family: 'Fira Sans', 'Readex Pro', Helvetica Neue,sans-serif;
+  font-size: 18px;
+  font-weight: 800;
+  color: #000;
 }
 
 .title {
-  margin: 0;
+  color: #00c14e;
+  text-decoration: none;
+}
+
+.heading {
+  text-align: center;
+  margin: 35px 0;
   line-height: 1.15;
   font-size: 4rem;
 }
 
-.title,
-.description {
-  text-align: center;
-}
-
-.description {
-  margin: 4rem 0;
-  line-height: 1.5;
-  font-size: 1.5rem;
-}
-
-.code {
-  background: #fafafa;
-  border-radius: 5px;
-  padding: 0.75rem;
-  font-size: 1.1rem;
-  font-family: Menlo, Monaco, Lucida Console, Liberation Mono, DejaVu Sans Mono,
-    Bitstream Vera Sans Mono, Courier New, monospace;
-}
-
 .grid {
   display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  flex-wrap: wrap;
   max-width: 800px;
-}
-
-.card {
-  margin: 1rem;
-  padding: 1.5rem;
-  text-align: left;
-  color: inherit;
-  text-decoration: none;
-  border: 1px solid #eaeaea;
-  border-radius: 10px;
-  transition: color 0.15s ease, border-color 0.15s ease;
-  max-width: 300px;
-}
-
-.card:hover,
-.card:focus,
-.card:active {
-  color: #0070f3;
-  border-color: #0070f3;
-}
-
-.card h2 {
-  margin: 0 0 1rem 0;
-  font-size: 1.5rem;
-}
-
-.card p {
-  margin: 0;
-  font-size: 1.25rem;
-  line-height: 1.5;
 }
 
 .logo {
@@ -108,22 +69,39 @@
   margin-left: 0.5rem;
 }
 
+.inputsContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.winnerContainer {
+  max-width: 75vw;
+  height: 200px;
+  width: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 35px;
+  padding: 35px;
+  font-size: 1.25rem;
+  line-height: 1.5;
+  border: 3px solid #e1b35d;
+  border-radius: 7px;
+  overflow: auto;
+  color: #e1b35d;
+  background-color: #18323b;
+  /* background-color: #0c2832; */
+}
+
+.winner {
+
+}
+
 @media (max-width: 600px) {
   .grid {
     width: 100%;
     flex-direction: column;
-  }
-}
-
-@media (prefers-color-scheme: dark) {
-  .card,
-  .footer {
-    border-color: #222;
-  }
-  .code {
-    background: #111;
-  }
-  .logo img {
-    filter: invert(1);
   }
 }
