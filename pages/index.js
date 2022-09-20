@@ -27,6 +27,8 @@ export default function Home(window) {
           Welcome to <span className={styles.title}>PickMe!</span>
         </h1>
 
+        <p className={styles.message}><em>Each selection goes on a new line (commas not required)</em></p>
+
         <div className={styles.grid}>
           <div className={styles.inputsContainer}>
             <UserInput userInputHandler={setUserInput} />
