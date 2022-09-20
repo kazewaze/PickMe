@@ -12,9 +12,7 @@ import browser from '../utils/browser'
 
 export default function Home(window) {
   const [userInput, setUserInput] = useState('');
-  const [winner, setWinner] = useState('');
-
-  browser(window);
+  const [winner, setWinner] = useState('')
 
   return (
     <div className={styles.container}>
