@@ -8,7 +8,6 @@ import UserInput from '../components/userInput'
 import Button from '../components/button'
 
 import choose from '../utils/random'
-import browser from '../utils/browser'
 
 export default function Home(window) {
   const [userInput, setUserInput] = useState('');
