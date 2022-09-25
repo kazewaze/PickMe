@@ -11,7 +11,7 @@ import choose from '../utils/randomButBetter'
 
 export default function Home() {
   const [userInput, setUserInput] = useState('');
-  const [winner, setWinner] = useState('')
+  const [winner, setWinner] = useState('');
 
   return (
     <div className={styles.container}>
@@ -43,7 +43,7 @@ export default function Home() {
           </div>
 
           { winner ? (
-            <div className={styles.winnerContainer}>
+            <div className={styles.winnerContainer} id="result">
               <h1 className={styles.winner}>{ winner }</h1>
             </div>
             ) : ''

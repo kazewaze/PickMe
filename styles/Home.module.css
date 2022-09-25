@@ -103,10 +103,6 @@
   /* background-color: #0c2832; */
 }
 
-.winner {
-
-}
-
 @media (max-width: 600px) {
   .grid {
     width: 100%;

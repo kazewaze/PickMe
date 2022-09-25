@@ -9,6 +9,7 @@ body {
   font-family: 'Readex Pro', 'Inter', 'Fira Sans', Helvetica Neue, sans-serif;
   line-height: 1.5;
   letter-spacing: 0.0625em;
+  scroll-behavior: smooth;
   color: #efeeea!important;
   background-color: #001d28!important;
 }
