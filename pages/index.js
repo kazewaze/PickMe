@@ -7,9 +7,9 @@ import styles from '../styles/Home.module.css'
 import UserInput from '../components/userInput'
 import Button from '../components/button'
 
-import choose from '../utils/random'
+import choose from '../utils/randomButBetter'
 
-export default function Home(window) {
+export default function Home() {
   const [userInput, setUserInput] = useState('');
   const [winner, setWinner] = useState('')
 

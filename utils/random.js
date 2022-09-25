@@ -9,9 +9,9 @@ export default function choose(array_) {
 
   do {
    counter[array_.indexOf(randomSelection(array_))]++;
-  } while (!counter.includes(3));
+  } while (!counter.includes(7));
 
-  return array_[counter.indexOf(3)];
+  return array_[counter.indexOf(7)];
 }
 
 function randomSelection(array_) {
