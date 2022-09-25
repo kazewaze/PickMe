@@ -5,6 +5,7 @@
 
 export default function choose(array_) {
   let counter = Array(array_.length).fill(0);
+  array_ = array_.filter(selection => selection !== "");
 
   do {
    counter[array_.indexOf(randomSelection(array_))]++;

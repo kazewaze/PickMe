@@ -12,7 +12,7 @@ import choose from '../utils/random'
 export default function Home(window) {
   const [userInput, setUserInput] = useState('');
   const [winner, setWinner] = useState('')
-
+  console.log(userInput);
   return (
     <div className={styles.container}>
       <Head>
