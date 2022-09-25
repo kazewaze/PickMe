@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 html,
 body {
   padding: 0;
@@ -14,18 +18,35 @@ a {
   text-decoration: none;
 }
 
-textarea {
+textarea,
+button:focus,
+button:active {
   box-shadow: none;
 }
 
 button:focus,
 button:active {
   outline: none;
-  box-shadow: none;
 }
 
-* {
-  box-sizing: border-box;
+textarea::-webkit-input-placeholder {
+  color: #e1b35d;
+}
+
+textarea:-moz-placeholder { /* Firefox 18- */
+  color: #e1b35d;  
+}
+
+textarea::-moz-placeholder {  /* Firefox 19+ */
+  color: #e1b35d;  
+}
+
+textarea:-ms-input-placeholder {
+  color: #e1b35d;  
+}
+
+textarea::placeholder {
+  color: #e1b35d;  
 }
 
 @media (prefers-color-scheme: dark) {

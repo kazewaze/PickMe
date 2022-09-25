@@ -16,6 +16,7 @@ export default function Home(window) {
   return (
     <div className={styles.container}>
       <Head>
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
         <title>PickMe!</title>
         <meta name="author" content="Kaycee Ingram <kazewaze>" />
         <meta name="description" content="A simple random picker" />
