@@ -1,9 +1,4 @@
 <p align="center">
-  <img src="https://raw.githubusercontent.com/KayceeIngram/assets-holder/main/pickme-logo.png" alt="PickMe! Logo"/>
-</p>
-----------------
-
-<p align="center">
   <img style="max-width: 750px" height="75%" src="https://raw.githubusercontent.com/KayceeIngram/assets-holder/main/pickme-example.png" alt="PickMe! Example"/>
 </p>
 
