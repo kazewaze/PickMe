@@ -40,12 +40,12 @@ function allEqual(array_) {
   return array_.every(idx => idx === array_[0] ? true : false);
 }
 
-function repeatDuplicates(arr, amount=3) {
+function repeatDuplicates(array_, amount=3) {
   let [count, last] = [0];
 
-  for (let i = 0; i < arr.length; i++) {
-    if (arr[i] !== last) {
-      last = arr[i];
+  for (let i = 0; i < array_.length; i++) {
+    if (array_[i] !== last) {
+      last = array_[i];
       count = 0;
     }
 
@@ -60,7 +60,3 @@ function repeatDuplicates(arr, amount=3) {
 // function evenOrOdd(num) {
 //   return num % 2 === 0;
 // }
-
-// console.log(Math.floor(mtAlgo.random() * 5));
-
-// console.log(choose['k', 'w', 'i']);
