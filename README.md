@@ -1,5 +1,5 @@
 <p align="center">
-  <img width="75%" height="75%" src="https://raw.githubusercontent.com/KayceeIngram/assets-holder/main/pickme-example.png" alt="PickMe! Example"/>
+  <img width="95%" height="100%" src="https://raw.githubusercontent.com/KayceeIngram/assets-holder/main/pickme-example.png" alt="PickMe! Example"/>
 </p>
 
 ### A simple random picker... why?
